@@ -1,6 +1,6 @@
 #pragma once
 #include <wx/app.h>
-#include "frame.h"
+#include "menu.h"
 
 class main : public wxApp
 {

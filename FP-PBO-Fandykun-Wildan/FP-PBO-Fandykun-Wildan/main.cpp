@@ -3,8 +3,8 @@
 
 bool main::OnInit()
 {
-	frame* menu = new frame("Dinosaurus",1000,500);
-	menu->Show();
+	menu* mainmenu = new menu();
+	mainmenu->Show();
 
 
 	
