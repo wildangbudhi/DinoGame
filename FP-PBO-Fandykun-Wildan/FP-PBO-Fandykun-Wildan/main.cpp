@@ -1,9 +1,13 @@
 #include "main.h"
+#include <cstdlib>
 
 bool main::OnInit()
 {
-	frame* mainFrame = new frame("Dinosaurus");
-	mainFrame->Show(true);
+	frame* menu = new frame("Dinosaurus",1000,500);
+	menu->Show();
+
+
+	
 	return true;
 }
 
