@@ -5,6 +5,6 @@
 class frame : public wxFrame
 {
 public:
-	frame(const wxString& title);
+	frame(const wxString& title, int width, int height);
 };
 

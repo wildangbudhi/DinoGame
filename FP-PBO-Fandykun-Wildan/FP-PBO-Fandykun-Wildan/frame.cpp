@@ -1,6 +1,6 @@
 #include "frame.h"
 
-frame::frame(const wxString & title)
-	: wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(1000, 500))
+frame::frame(const wxString & title, int width, int height)
+	: wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(width, height))
 {
 }
