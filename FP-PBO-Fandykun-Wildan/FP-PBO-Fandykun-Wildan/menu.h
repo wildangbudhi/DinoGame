@@ -15,6 +15,6 @@ private:
 
 protected:
 	wxStaticText* label;
-	wxImage* dino;
+	wxStaticBitmap *img;
 };
 
