@@ -7,9 +7,14 @@ class menu : public wxFrame
 {
 public:
 	menu();
+	void run();
+	void OnKeyDown(wxKeyEvent& event);
+
+private:
+	int h, w;
 
 protected:
 	wxStaticText* label;
-	wxAnimationCtrl* m_animationCtrl;
+	wxImage* dino;
 };
 
