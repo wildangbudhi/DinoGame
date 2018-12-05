@@ -1,14 +1,9 @@
-#include "main.h"
-#include <cstdlib>
+#include "Main.h"
+#include "TimerFrame.h" 
 
-bool main::OnInit()
-{
-	menu* mainmenu = new menu();
-	mainmenu->Show();
-
-
-	
-	return true;
+bool MyApp::OnInit() 
+{ 
+	TimerFrame *frame = new TimerFrame("Timer App");  
+	frame->Show();  
+	return true; 
 }
-
-wxIMPLEMENT_APP(main);

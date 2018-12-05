@@ -1,10 +1,9 @@
-#pragma once
-#include <wx/app.h>
-#include "menu.h"
+#include <wx\wx.h> 
 
-class main : public wxApp
-{
-public:
-	virtual bool OnInit();
+class MyApp : public wxApp 
+{ 
+public: 
+	virtual bool OnInit(); 
 };
 
+IMPLEMENT_APP(MyApp) DECLARE_APP(MyApp)
