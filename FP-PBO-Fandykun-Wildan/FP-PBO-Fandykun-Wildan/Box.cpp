@@ -1,5 +1,5 @@
 #include "Box.h" 
-Box::Box() 
+Dino::Dino() 
 { 
 	wxImageHandler *PNGLoader = new wxPNGHandler;
 	wxImage::AddHandler(PNGLoader);
@@ -8,14 +8,14 @@ Box::Box()
 	Dino1_bitmap = new wxBitmap(image);
 }
 
-void Box::Draw(wxPaintDC &dc) 
+void Dino::Draw(wxPaintDC &dc) 
 { 
 	if (Dino1_bitmap != nullptr) {
 		dc.DrawBitmap(*Dino1_bitmap, wxPoint(30, 300), true);
 	}
 }
 
-void Box::Move() {
+void Dino::Move() {
 
 	static bool pos = false;
 	wxString a = (!pos)? wxT("D:\\Files\\Informatika\\Pemrograman Berbasis Objek\\Code\\Project\\FP-PBO\\wx-Project\\dinorun0001.png")

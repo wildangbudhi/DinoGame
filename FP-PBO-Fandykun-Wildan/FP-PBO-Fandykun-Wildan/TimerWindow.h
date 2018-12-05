@@ -1,7 +1,7 @@
 #pragma once 
 #include <wx\wx.h> 
 
-class Box;
+class Dino;
 
 class TimerWindow : public wxWindow 
 { 
@@ -12,6 +12,6 @@ public:
 	void OnTimer(wxTimerEvent &event); 
 private:  
 	wxTimer *timer;
-	Box *box;
+	Dino *dino;
 	DECLARE_EVENT_TABLE() 
 };

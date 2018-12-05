@@ -1,11 +1,11 @@
 #pragma once 
 #include <wx\dcclient.h> 
 
-class Box {
+class Dino {
 private:  
 	wxBitmap *Dino1_bitmap = nullptr;
 public:  
-	Box();
+	Dino();
 	void Draw(wxPaintDC &dc);  
 	void Move();
 };
