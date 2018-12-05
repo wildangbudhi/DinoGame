@@ -21,12 +21,14 @@
   <ItemGroup>
     <ClInclude Include="Box.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="Obstacle.h" />
     <ClInclude Include="TimerFrame.h" />
     <ClInclude Include="TimerWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
     <ClCompile Include="TimerFrame.cpp" />
     <ClCompile Include="TimerWindow.cpp" />
   </ItemGroup>

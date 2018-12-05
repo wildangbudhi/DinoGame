@@ -4,6 +4,6 @@
 TimerFrame::TimerFrame(const wxString &title) 
 	: wxFrame(NULL, wxID_ANY, title) 
 { 
-	window = new TimerWindow(this);  
+	window = new TimerWindow(this);
 	SetInitialSize(wxSize(640, 480)); 
 }
